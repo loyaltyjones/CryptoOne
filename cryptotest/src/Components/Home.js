@@ -13,11 +13,8 @@ function Home() {
 
   // const [updatedCoin, newUpDatedCoin] = useState("")
 
-
- 
-
-  
-
+// Using useContext to have access from CoinContext
+// Coin of the Day flip 
   return (
     <div className='home'>
     <h1>{coin}</h1>
@@ -34,8 +31,6 @@ function Home() {
       >Reset</button>
     </div>
 
-
-    
    </div>
    
   )

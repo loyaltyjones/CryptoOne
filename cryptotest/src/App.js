@@ -1,9 +1,5 @@
 import './App.css';
 import React from 'react';
-// import Table from './Components/Table';
-// import TopBar from './Components/TopBar';
-// import TemplatePage from './Components/TemplatePage';
-// import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './Components/Layout';
 import Home from './Components/Home';

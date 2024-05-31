@@ -11,7 +11,7 @@ import Usdc from './Usdc'
 import Xrp from './Xrp'
 
 
-
+// Learn About Top 10 Cryptocurruncies
 function Blogs() {
   return (
     <div className='blogs'>
