@@ -13,8 +13,8 @@ function Searchbar() {
     
 
   return (
-    <div>
-         <input
+    <div id='searchDiv'>
+         <input id='searchCrypto'
                 type="text"
                 placeholder="Search Your Crypto..."
                 onChange={(e) => {

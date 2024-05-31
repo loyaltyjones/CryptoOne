@@ -5,7 +5,7 @@ function Solana() {
   return (
     <div>
         <img className="solana" src={SolanaImage} />
-        <p>In August 2021, prices for SOL — the cryptocurrency that helps power the smart-contract-compatible Ethereum competitor Solana — suddenly spiked from around $30 at the beginning of the month to around $75 three weeks in, drawing mainstream attention to the altcoin. 
+        <p id='pSol' className='pCoin'>In August 2021, prices for SOL — the cryptocurrency that helps power the smart-contract-compatible Ethereum competitor Solana — suddenly spiked from around $30 at the beginning of the month to around $75 three weeks in, drawing mainstream attention to the altcoin. 
 
         SOL got a boost from one of the biggest crypto trends of the summer: the launch of a primate-themed NFT collectible project. Specifically, the Degenerate Ape Academy NFTs, the first major NFT project to launch on the Solana blockchain. But what exactly is Solana? 
 
@@ -13,8 +13,10 @@ function Solana() {
 
         Because Solana is so fast, congestion and fees remain low. Developers hope high speeds and low fees will eventually enable Solana to scale to compete with centralized payment processors like Visa. 
 
-        Solana’s native cryptocurrency is SOL. It’s used to pay transaction fees and for staking. SOL is available to buy and sell via exchanges like Coinbase. </p>
-        <p>https://www.coinbase.com/learn/crypto-basics/what-is-solana</p>
+        Solana’s native cryptocurrency is SOL. It’s used to pay transaction fees and for staking. SOL is available to buy and sell via exchanges like Coinbase.
+        <p>Source: https://www.coinbase.com/learn/crypto-basics/what-is-solana</p>
+         </p>
+        
     </div>
   )
 }

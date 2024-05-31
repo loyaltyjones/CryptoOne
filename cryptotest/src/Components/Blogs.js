@@ -15,8 +15,8 @@ import Xrp from './Xrp'
 function Blogs() {
   return (
     <div className='blogs'>
-    <h1>LEARN THE TOP 10 COINS</h1>
-    <Bitcoin />
+    <h1 id='top10'>LEARN ABOUT THE TOP 10 CRYPTOCURRENCIES</h1>
+        <Bitcoin />
         <BNB />
         <Ethereum />
         <DogeCoin2 />

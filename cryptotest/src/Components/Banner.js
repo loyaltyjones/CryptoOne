@@ -1,19 +1,38 @@
 import React from 'react'
 import { useState } from 'react';
-// import ChildButton from './ChildButton';
+import { createContext } from 'react';
+import Home from './Home';
+
+
+
+export const coinOfTheDay = createContext()
+// function getCoin() {
+//     const [coin, setCoin] = useState("COIN OF THE DAY");
+  
+//     return (
+//       <>
+//         <h1>First Coin {coin}!</h1>
+//         <button
+//           type="button"
+//           onClick={() => setCoin("New Coin")}
+//         >Get coin of the day</button>
+//       </>
+//     )
+//   }
 
 function Banner() {
-    const [state, setState] = useState({
-        text: 'Choose your genre: '
-        
-    });
+    const [coin, setCoin] = useState("object");
+    // const [imageSrc, setImageSrc] = useState('initial-image-src.jpg');
+
     return (
         <div>
-            <h1>{state.text}</h1>
-            <a href="https://buy.stripe.com/test_3csg186vzc3o3MA288"> Comedy</a>
+            <h1>Banner</h1>
+            <coinOfTheDay.Provider value={coin} >
+                {/* <Table /> */}
+                {/* <ConQuery /> */}
+                <Home />
 
-
-      
+            </coinOfTheDay.Provider>
         </div>
     );
 };

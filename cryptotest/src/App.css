@@ -1,6 +1,10 @@
 /* Styling for the body */
 body{
   /* background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2018_33/2363946/180315-cryptocurrency-al-1338.jpg); */
+  /* background-image: url(https://playtoday.co/wp-content/uploads/2022/02/cryptocurrency-facts.png); */
+  /* background-image: url(https://plisio.net/uploads/blog/UCRRQQnL1699829731.jpg); */
+  background-image: url(https://isg-one.com/images/default-source/default-album/banks-cryptocurrency-digital-asset-markets.tmb-th1903-746.jpg?Culture=en&sfvrsn=c27d731_1);
+  /* background-image: url(https://playtoday.co/wp-content/uploads/2022/02/cryptocurrency-facts.png); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -19,18 +23,18 @@ body{
 /* Layout Styling */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(14, 14, 16);
+  background-color: #dc3545;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  font-size: 35px;
   float: left;
-  color: #f2f2f2;
+  color: #616161;
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 /* Change the color of links on hover */
@@ -41,22 +45,44 @@ body{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: blue;
-  color: white;
+  background-color: #dc3545;
+  color: #616161;
 }
 
 
 /* Blog component */
 .blogs{
-  color: red;
+  color: #616161;
 }
 
 .contact{
+  background-image: url(https://cdn.trendhunterstatic.com/thumbs/450/crypto-donation-payment-methods.jpeg?auto=webp);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover; 
+  border: 7px solid #dc3545;
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  height: 500px;
+  width: 500px;
+  /* background-color: white; */
+  
+
+ 
   color: red;
 }
-
+/* coin of the day */
 .home{
   color: red;
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  height: 500px;
+  width: 500px;
+  /* background-color: white; */
+  
 }
 .api{
   color: green;
@@ -98,6 +124,7 @@ input {
 }
 
 table {
+  
 	width: 100%;
 	border-collapse: separate;
 	border-spacing: 0 1em;
@@ -105,13 +132,16 @@ table {
 
 thead {
   height: 50px;
-	background-color: blue;
-	color: white;
+  background-color: #80DEEA;
+	color: #616161;
 	text-align: center;
 }
 
 tbody>tr {
 	text-align: right;
+}
+table, th, td {
+  border: 2px solid black;
 }
 
 .rank {
@@ -132,54 +162,248 @@ tbody>tr {
 
 /* Coin Image Styling */
 .bitcoin{
-  width: 230px;
-  height: 120px;
+  width: 690px;
+  height: 360px;
+  position: absolute;
+  top: 16rem;
+  right: 22rem;
 }
-.bnb{
-  width: 350px;
-  height: 200px;
-}
+#pBit{
+  position: absolute;
+  top: 40rem;
 
+}
 .ethereum{
-  width: 230px;
-  height: 120px;
+  width: 690px;
+  height: 360px;
+  position: absolute;
+  top: 56rem;
+  right: 22rem;
 
 }
-.solana{
-  width: 245px;
-  height: 165px;
+#pEth{
+  position: absolute;
+  top: 80rem;
 
 }
+
 .tether{
-  width: 290px;
-  height: 160px;
+  width: 870px;
+  height: 480px;
+  position: absolute;
+  top: 96rem;
+  right: 16rem;
+}
+#pTeth{
+  position: absolute;
+  top: 120rem;
 
 }
-.toncoin{
-  width: 170px;
-  height: 120px;
+
+.bnb{
+  width: 1050px;
+  height: 600px;
+  position: absolute;
+  top: 128rem;
+  right: 10rem;
+}
+
+#pBnb{
+  position: absolute;
+  top: 160rem;
+  
 
 }
-.usdc{
-  width: 270px;
-  height: 120px;
+
+.solana{
+  width: 735px;
+  height: 495px;
+  position: absolute;
+  top: 173rem;
+  right: 21rem;
+}
+
+#pSol{
+  position: absolute;
+  top: 200rem;
 
 }
-.xrp{
-  width: 240px;
-  height: 130px;
 
-}
-.dogecoin{
-  width: 240px;
-  height: 160px;
-
-}
 .lido{
-  width: 210px;
-  height: 130px;
+  width: 630px;
+  height: 390px;
+  position: absolute;
+  top: 216rem;
+  right: 24rem;
+}
+
+#pLido{
+  position: absolute;
+  top: 240rem;
 
 }
+
+.usdc{
+  width: 810px;
+  height: 360px;
+  position: absolute;
+  top: 256rem;
+  right: 18rem;
+}
+
+#pUsdc{
+  position: absolute;
+  top: 280rem;
+
+}
+
+.xrp{
+  width: 720px;
+  height: 390px;
+  position: absolute;
+  top: 296rem;
+  right: 21rem;
+}
+
+#pXrp{
+  position: absolute;
+  top: 320rem;
+
+}
+
+.dogecoin{
+  width: 720px;
+  height: 480px;
+  position: absolute;
+  top: 336rem;
+  right: 20rem;
+}
+
+#pDoge{
+  position: absolute;
+  top: 360rem;
+
+}
+
+.toncoin{
+  width: 510px;
+  height: 360px;
+  position: absolute;
+  top: 376rem;
+  right: 27rem;
+}
+
+#pTon{
+  position: absolute;
+  top: 400rem;
+
+}
+
+
+
+
+
+
+
+
+
+.pCoin{
+  background-color: #80DEEA;
+  border: 10px solid rgba(0, 0, 0, 0.125);
+
+}
+
+/* shop page link styled as button */
+.shoplink{
+  border: 7px solid #dc3545;
+  background-color: #80DEEA;
+  color: #616161;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom-right-radius: 15px;
+}
+
+/* Coin of the day */
+.codImage{
+  /* border-radius: 15px; */
+  border: 7px solid #dc3545;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+ 
+}
+
+/*Crypto Table styling */
+.cyptoTable{
+  background-color: white;
+}
+/* Coin of the day */
+.ethereumCOD{
+  position: absolute;
+  top: 5%;
+  left: -20%;
+  height: 500px;
+  width: 850px;
+
+
+}
+
+#buttonCod{
+  border-top-left-radius: 15px;
+  border: 7px solid #dc3545;
+  color: #616161;
+  background-color: #80DEEA;
+  width: 412px;
+  height: 50px;
+  position: absolute;
+  top: -10%;
+  right: 88px;
+}
+#resetCod{
+  border-top-right-radius: 15px;
+  border: 7px solid #dc3545;
+  color: #616161;
+  background-color: #dc3545;
+  width: 210px;
+  height: 50px;
+  position: absolute;
+  top: -10%;
+  left: 404px;
+}
+
+
+/* SearchBar */
+#searchCrypto{
+  font-size: 55px;
+  position: relative;
+  left: 33%;
+  width: 555px;
+  height: 85px;
+}
+/* Search Bar Div */
+#searchDiv{
+  display: flexbox;
+  align-content: center;
+}
+
+/* top 10 text */
+#top10{
+  color: #11f80e;;
+  position: relative;
+  left: 20%;
+  /* background-color: #dc3545; */
+  
+}
+/* bootstrap image */
+.img-thumbnail{
+  position: relative;
+  top: 30rem;
+  right: 10rem;
+}
+
+
+
 
 
 

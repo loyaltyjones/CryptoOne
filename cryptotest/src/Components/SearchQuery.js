@@ -44,8 +44,6 @@ function SearchQuery() {
                         <td>Symbol</td>
                         <td>Market Cap</td>
                         <td>Price</td>
-                        {/* <td>Available Supply</td> */}
-                        {/* <td>Volume(24hrs)</td> */}
                     </tr>
                 </thead>
                 {/* Mapping all the cryptos */}
@@ -64,17 +62,12 @@ function SearchQuery() {
                                             <a href={val.coinrankingUrl}>
                                                 <img src={val.iconUrl} alt="logo" width="30px" />
                                             </a>
- 
                                             <p>{val.name}</p>
- 
                                         </td>
                                         <td className="symbol">{val.symbol}</td>
                                         <td>${val.marketCap}</td>
                                         <td>${val.price}</td>
-                                        {/* <td>₹{val.price.toFixed(2)}</td> */}
-                                        {/* <td>{val.availableSupply}</td> */}
-                                        {/* <td>{val.volume}</td> */}
-                                        {/* <td>{val.volume.toFixed(0)}</td> */}
+        
                                     </tr>
                                 </>
                             );

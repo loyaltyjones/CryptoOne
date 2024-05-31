@@ -31,15 +31,7 @@ const searchInput = useContext(setSearchBarContext)
  
     return (
         <div className="App">
-            <h1>ConQuery</h1>
-            {/* <input
-                type="text"
-                placeholder="Search..."
-                onChange={(e) => {
-                    setSearch(e.target.value);
-                }}
-            /> */}
-            <table>
+           <table>
                 <thead>
                     <tr>
                         <td>Rank</td>
@@ -47,12 +39,10 @@ const searchInput = useContext(setSearchBarContext)
                         <td>Symbol</td>
                         <td>Market Cap</td>
                         <td>Price</td>
-                        {/* <td>Available Supply</td> */}
-                        {/* <td>Volume(24hrs)</td> */}
                     </tr>
                 </thead>
                 {/* Mapping all the cryptos */}
-                <tbody>
+                <tbody className='cyptoTable'>
                     {/* Filtering to check for the searched crypto */}
                     {crypto
                         .filter((val) => {
@@ -74,10 +64,6 @@ const searchInput = useContext(setSearchBarContext)
                                         <td className="symbol">{val.symbol}</td>
                                         <td>${val.marketCap}</td>
                                         <td>${val.price}</td>
-                                        {/* <td>₹{val.price.toFixed(2)}</td> */}
-                                        {/* <td>{val.availableSupply}</td> */}
-                                        {/* <td>{val.volume}</td> */}
-                                        {/* <td>{val.volume.toFixed(0)}</td> */}
                                     </tr>
                                 </>
                             );

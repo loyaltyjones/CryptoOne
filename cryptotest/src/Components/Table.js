@@ -21,11 +21,6 @@ const requestOptions = {
   redirect: "follow"
 };
 
-// fetch("https://api.coinranking.com/v2/coins", requestOptions)
-//   .then((response) => response.json())
-//   .then((result) => console.log(result))
-//   .catch((error) => console.error(error));
-
 fetch("https://api.coinranking.com/v2/coins", requestOptions)
   .then(response => response.json())
   .then(result => {
@@ -35,13 +30,6 @@ fetch("https://api.coinranking.com/v2/coins", requestOptions)
   .catch((error) => console.error(error));
 
 
-        // fetch(`https://crypto-market-prices.p.rapidapi.com/tokens/BTC?base=USDT`)
-
-        // .then(response => response.json())
-        // .then(data => {
-            // setCrypto(data);
-        // })
-     
 },[])
 
   return (
