@@ -28,7 +28,6 @@ const searchInput = useContext(setSearchBarContext)
             setCrypto(res.data.coins);
         });
     }, []);
- 
     return (
         <div className="App">
            <table>
