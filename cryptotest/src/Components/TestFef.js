@@ -37,7 +37,7 @@ const requestOptions = {
       .catch(error => {
         console.error('Error fetching data:', error);
       });
-  }, []); // Empty dependency array means this effect runs once after initial render
+  }, []); // Empty dependency array for one render only
 
   return (
     <div>
@@ -49,11 +49,7 @@ const requestOptions = {
           <div className='api' key={index}>{item}</div>
         ))}
       </ul>
-
-     
-  
-     </div>
-    
+     </div> 
   );
 };
 

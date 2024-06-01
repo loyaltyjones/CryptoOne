@@ -12,7 +12,7 @@ import Xrp from './Xrp'
 
 
 // Learn About Top 10 Cryptocurruncies
-function Blogs() {
+function TopTen() {
   return (
     <div className='blogs'>
     <h1 id='top10'>LEARN ABOUT THE TOP 10 CRYPTOCURRENCIES</h1>
@@ -30,4 +30,4 @@ function Blogs() {
   )
 }
 
-export default Blogs
+export default TopTen

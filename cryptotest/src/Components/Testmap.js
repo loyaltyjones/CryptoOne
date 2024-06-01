@@ -2,9 +2,6 @@ import React from 'react'
 
 
 
-
-
-
 function Testmap() {
     const test = {
         "status": "success",
@@ -281,3 +278,5 @@ export default Testmap
     
 
 // export default Testmap
+
+
